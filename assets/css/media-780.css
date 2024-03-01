@@ -1,0 +1,24 @@
+@media only screen and (max-width: 700px){
+    .menu-icon{
+        display: flex;
+    }
+    .menu{
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 20px;
+        padding-top: 30px;
+        background: #231F20;
+        z-index: 2;
+        transition: 300ms;
+        transform: translateX(-100%);
+    }
+    .open-menu{
+        transform: translateX(0);
+    }
+    .menu-close{
+        display: flex;
+    }
+}

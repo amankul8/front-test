@@ -1,0 +1,68 @@
+@media only screen and (max-width: 650px){
+    .header-content{
+        width: 100%;
+        gap: 40px;
+    }
+
+    .menu-icon{
+        left: 40px;
+    }
+    .container {
+        margin: 0 auto;
+        height: 100%;
+        height: calc(100vh - 20vh);
+        color: white;
+        text-align: center;
+        padding: 40px 40px 0 40px;
+    }
+    .products{
+        padding: 30px 40px;
+        margin-top: 40px;
+    }
+    .about{
+        margin-top: 40px;
+    }
+    .info-block{
+        height: 550px;
+    }
+    .info-block-text{
+        padding: 40px;
+    }
+    .advantage{
+        width: 250px;
+    }
+    .services{
+        margin-top: 40px;
+        padding: 40px;
+    }
+    .service-card{
+        height: min-content;
+    }
+    .partners{
+        padding: 40px;
+        gap: 30px;
+        margin-top: 40px;
+    }
+    .partner-icons img{
+        width: 60px;
+        height: 40px;
+    }
+
+    .for-partners{
+        padding: 40px;
+        margin-top: 40px;
+    }
+    .for-partners form input{
+        width: 100%;
+    }
+
+    .map{
+        padding: 40px;
+        gap: 30px;
+        margin-top: 40px;
+    }
+    .footer{
+        padding: 40px;
+        margin-top: 40px;
+    }
+}
